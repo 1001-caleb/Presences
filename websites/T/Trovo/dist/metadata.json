@@ -1,0 +1,53 @@
+{
+    "$schema": "https://schemas.premid.app/metadata/1.6",
+    "author": {
+      "name": "USUARIO",
+      "id": "ID"
+    },
+    "service": "Trovo",
+    "description": {
+      "en": "Trovo is an interactive live streaming platform, you can check out the hottest games live, share your own gaming experiences, and join an amazing community ...",
+      "es": "Trovo es una plataforma de retransmisión de videojuegos en directo y Videoblogs de Influencer respectivamente, propiedad de Tencent Holdings muy similar a Twitch",
+      "pt_BR": "Twitch é a plataforma líder mundial em streaming para gamers e coisas que amamos. Assista e converse agora com milhões de outros fãs ao redor do mundo."
+    },
+    "url": "trovo.live/",
+    "version": "0.1",
+    "logo": "URL",
+    "thumbnail": "URL",
+    "color": "#HEX000",
+    "tags": ["ETIQUETA1", "ETIQUETA2"],
+    "category": "STREAMS",
+    "regExp": "REGEXP",
+    "iFrameRegExp": "REGEXP",
+    "iframe": false,
+    "readLogs": false,
+    "settings": [
+      {
+        "id": "ID",
+        "multiLanguage": true
+      },
+      {
+        "id": "ID",
+        "title": "TÍTULO A MOSTRAR",
+        "icon": "ICONO FONTAWESOME",
+        "value": true
+      },
+      {
+        "id": "ID",
+        "if": {
+          "ID": true
+        },
+        "title": "TÍTULO A MOSTRAR",
+        "icon": "ICONO FONTAWESOME",
+        "value": "\"%song%\" por %artist%",
+        "placeholder": "usa %song% o %artist%"
+      },
+      {
+        "id": "ID",
+        "title": "TÍTULO A MOSTRAR",
+        "icon": "ICONO FONTAWESOME",
+        "value": 0,
+        "values": ["1", "2", "etc."]
+      }
+    ]
+  }
